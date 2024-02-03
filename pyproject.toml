@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "devopschatengine"
+version = "0.1.0"
+description = ""
+authors = ["Samir Nabadov"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-telegram-bot = {version = "20.3", extras = ["ext"]}
+logging = "0.4.9.6"
+kubernetes = "26.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
